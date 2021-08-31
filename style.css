@@ -1,0 +1,68 @@
+    body {
+        text-align: center;
+        background-image: url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v462-n-130-textureidea_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=9465282a2b0a375f4f5b120d7bbad882');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .hdr_Guest {
+        color: cornsilk;
+        font-family: 'Coming Soon', cursive;
+        font-variant: small-caps;
+        font-size: 50px;
+    }
+    
+    #inpt_name {
+        margin: 10px;
+        height: 20px;
+    }
+    
+    #divDisplay_withComma {
+        color: burlywood;
+    }
+    
+    #divDisplay {
+        color: darkblue;
+    }
+    
+    #divSortedNames {
+        color: peru;
+    }
+    
+    #divSearchNames {
+        color: green;
+        font-size: 25px;
+    }
+    
+    #btnSubmit,
+    #btnShow,
+    #btnSort,
+    #btnSearch {
+        height: 50px;
+        width: 100px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 20px;
+        color: cornsilk;
+    }
+    
+    #btnSubmit {
+        background-color: darkolivegreen;
+    }
+    
+    #btnShow {
+        background-color: darkblue;
+    }
+    
+    #btnSort {
+        background-color: peru;
+    }
+    
+    #btnSearch {
+        background-color: tomato;
+    }
+    
+    #inptSearch {
+        margin: 10px;
+        height: 20px;
+    }

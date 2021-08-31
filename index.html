@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guest List</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Enter student names -->
+    <h1 class="hdr_Guest">Guest List</h1>
+    <input id="inpt_name" type="text" placeholder=" Enter Name ">
+    <button id="btnSubmit" type="submit " onclick="saveNames()">Submit</button>
+    <!-- Display comma separated names -->
+    <hr style="color: dimgray; ">
+    <div id="divDisplay_withComma">
+    </div>
+    <hr style="color:dimgray ">
+    <!--  Display list of names -->
+    <h3 style="font-size: 30px;color:lightblue">Guest List</h3>
+    <button id="btnShow" type="button" onclick="showNames()">Show</button>
+    <div id="divDisplay">
+    </div>
+    <hr style="color: dimgray ">
+    <!-- Display Sorted list of Names -->
+    <button id="btnSort" type="button" onclick="sortNames()">Sort Name</button>
+    <div id="divSortedNames">
+    </div>
+    <hr style="color: dimgray;">
+    <!-- Search Names -->
+    <input id="inptSearch" type="text" placeholder="Search Name">
+    <button id="btnSearch" type="button" onclick="searchName()">Search</button>
+    <div id="divSearchNames">
+    </div>
+</body>
+
+</html>
